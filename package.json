@@ -1,24 +1,24 @@
 {
-  "name": "bamachoub-core",
+  "name": "@bamachoub/bamachoub-core",
   "version": "1.0.0",
-  "description": "",
+  "description": "Core library for bamachoubd apps",
   "main": "index.js",
-  "homepage": "https://github.com/bamachoub/bamachoub-core",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bamachoub/bamachoub-core"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "link": "npm link"
+    "url": "git+https://github.com/bamachoub/bamachoub-core.git"
   },
   "keywords": [
-    "github",
-    "repos",
-    "repositories",
     "bamachoub",
-    "core"
+    "core",
+    "bamachoub-core"
   ],
   "author": "Hayyaun <hayyanhami@outlook.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bamachoub/bamachoub-core/issues"
+  },
+  "homepage": "https://github.com/bamachoub/bamachoub-core#readme"
 }
