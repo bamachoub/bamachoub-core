@@ -1,9 +1,18 @@
 # Bamachoub Core Library
 
-Includes assets, core functionality, required hooks and most used values for bamachoub web and mobile apps.
+Includes assets, core functionality, required hooks and most used values for bamachoub web and mobile apps.  
+<br/>
 
+## Values
 
-## Buttons
+Exists of colors, enums, layout values, quantities and share strings.  
+<br/>
+
+## Components
+Reference for component props and attrs.  
+<br/>
+
+### Buttons
 
 ```
 Sizes: Large, Medium, Small
@@ -18,7 +27,7 @@ Props:
 ```
 
 
-## Cards
+### Cards
 
 ```
 Styles: Hover
@@ -26,14 +35,14 @@ Props: ...
 ```
 
 
-## Forms
+### Forms
 
 ```
 ...
 ```
 
 
-### Fields
+#### Fields
 
 ```
 Sizes: Large  
@@ -46,14 +55,14 @@ Props:
 ```
 
 
-### Input Stepper
+#### Input Stepper
 
 ```
 Sizes: Large, Small
 ```
 
 
-### Input Selector  
+#### Input Selector  
 
 ```
 Sizes: Large
@@ -64,7 +73,7 @@ Props:
 ```
 
 
-## Chips
+### Chips
 
 ```
 Sizes: Large, Small
@@ -76,7 +85,7 @@ Props:
 ```
 
 
-## Snackbars
+### Snackbars
 
 ```
 Props: 
@@ -86,14 +95,15 @@ Props:
   onUndo: func
 ```
 
-## Breadcrumbs
+### Breadcrumbs
 
 ```
 Styles: Hover
 ```
 
+<br/>
 
-# Tips
+## Tips
 
 > Hover is equal to **hover** in **desktop** and **onPressIn** in **mobile**  
 > Click is equal to **onClick** in **desktop** and **onPressOut/onPress** in **mobile**
