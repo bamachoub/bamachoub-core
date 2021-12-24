@@ -12,9 +12,7 @@ export const buttonStyles = {
 };
 
 export const sizes = {
-  xs: "xs",
-  sm: "sm",
-  md: "md",
-  lg: "lg",
-  xl: "xl",
+  small: "small",
+  medium: "medium",
+  large: "large",
 };

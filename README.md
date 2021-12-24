@@ -10,10 +10,11 @@ Includes assets, core functionality, required hooks and most used values for bam
 
 1. Clone current repo to your pc
 2. Update the code or assets as you wish
-3. Run ```npm link``` to link @bamachoub/bamachoub-core to your npm locally
-4. In your project dir run ```npm link @bamachoub/bamachoub-core``` to update package
+3. Run ```npm link``` to link @bamachoub/core to your npm locally
+4. In your project dir run ```npm link @bamachoub/core``` to update package
 5. Test changes but remember that these changes are local 
-6. To publish npm package read next section
+6. After each ```npm install``` in your source project you need to link again. (if you added @bamachoub/core as depencency)
+7. To publish npm package read next section
 
 
 ### How to publish changes to package
@@ -41,104 +42,3 @@ So change the version inside package.json file from 1.0.0 to 1.0.1 and run the n
 ## Values
 
 Exists of colors, enums, layout values, quantities and share strings.  
-<br/>
-
-## Components
-Reference for component props and attrs.  
-<br/>
-
-### Buttons
-
-```
-Sizes: Large, Medium, Small
-Props:
-  shadow: num,
-  isFilled: bool,
-  isBordered: bool,
-  isDisabled: bool,
-  isClicked: bool,
-  IconLeft: obj,
-  IconRight: obj
-```
-
-
-### Cards
-
-```
-Styles: Hover
-Props: ...
-```
-
-
-### Forms
-
-```
-...
-```
-
-
-#### Fields
-
-```
-Sizes: Large  
-Props:  
-  title: str,  
-  label: str,  
-  warnings: str[],
-  isDisabled: bool,
-  isActive: bool,
-```
-
-
-#### Input Stepper
-
-```
-Sizes: Large, Small
-```
-
-
-#### Input Selector  
-
-```
-Sizes: Large
-Props: 
-  title: str,
-  isExpanded: bool,
-  selectedItem: { index: num, value: obj },
-```
-
-
-### Chips
-
-```
-Sizes: Large, Small
-Styles: Hover, Click
-Props:
-  label: str,
-  isRound: bool,
-  isRemovable: bool,
-```
-
-
-### Snackbars
-
-```
-Props: 
-  variant: enum,
-  label: enum,
-  time: num,
-  onUndo: func
-```
-
-### Breadcrumbs
-
-```
-Styles: Hover
-```
-
-<br/>
-
-## Tips
-
-> Hover is equal to **hover** in **desktop** and **onPressIn** in **mobile**  
-> Click is equal to **onClick** in **desktop** and **onPressOut/onPress** in **mobile**

@@ -1,6 +1,6 @@
 {
   "name": "@bamachoub/core",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Core library for bamachoubd apps",
   "main": "index.js",
   "scripts": {
