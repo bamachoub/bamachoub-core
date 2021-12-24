@@ -26,6 +26,12 @@ const layout = {
       small: 24,
     },
   },
+  breakpoints: {
+    mobile: 0,
+    tablet: 640,
+    laptop: 1024,
+    desktop: 1280,
+  },
 };
 
 export default layout;

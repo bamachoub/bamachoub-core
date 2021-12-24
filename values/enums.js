@@ -1,6 +1,20 @@
-export const variants = {
+export const logLevels = {
   none: "none",
   success: "success",
   warning: "warning",
   error: "error",
+};
+
+export const buttonStyles = {
+  text: "text",
+  contained: "contained",
+  outlined: "outlined",
+};
+
+export const sizes = {
+  xs: "xs",
+  sm: "sm",
+  md: "md",
+  lg: "lg",
+  xl: "xl",
 };

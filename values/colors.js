@@ -1,6 +1,8 @@
 const colors = {
   accent: "#deb887",
   primary: "#318161",
+  primaryLight: "#42ad82",
+  primaryDark: "#1f6449",
   secondary: "#fdebd2",
   background: "#f1f2f2",
   // by variant
@@ -9,7 +11,7 @@ const colors = {
   warning: "#e67f0d",
   success: "#4caf50",
   successLight: "#4bdc52",
-  disable: "#8d918f",
+  disabled: "#8d918f",
   primaryDisable: "#92d6ba",
   // by usage
   badge: "#ffde26",
