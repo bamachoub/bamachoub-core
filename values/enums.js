@@ -1,3 +1,5 @@
+// @flow
+
 export const logLevels = {
   none: "none",
   success: "success",
