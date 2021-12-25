@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/bamachoub/bamachoub-core/issues"
   },
-  "homepage": "https://github.com/bamachoub/bamachoub-core#readme"
+  "homepage": "https://github.com/bamachoub/bamachoub-core#readme",
+  "dependencies": {
+    "recoil": "^0.5.2"
+  }
 }

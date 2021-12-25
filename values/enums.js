@@ -1,6 +1,6 @@
 // @flow
 
-export const logLevels = {
+export const severity = {
   none: "none",
   success: "success",
   warning: "warning",
